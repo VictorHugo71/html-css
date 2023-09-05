@@ -1,0 +1,13 @@
+@charset "UTF-8"
+@font-face{ /**/
+    font-family:source;
+    src: url(font/source-code.ttf);
+}
+
+:root { /*Variaveis das cores que vou utilizar, muda o nome para o local onde vc vai usar, tipo principal, destaque, etc.*/
+    --cor1:##735BA4
+    --cor2:#5E4890
+    --cor3:#6C5A9F
+    --cor4:#654D97
+    --cor5:#4F3981
+}

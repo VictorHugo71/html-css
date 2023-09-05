@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midia em Html 5</title>
+    </head>
+    <body>
+        <h1>imagem dinâmica</h1>
+        <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente ou diminuas o tamanho do seu navegador</p>
+
+        <picture>
+            <source media="(max-width:460px )" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 750px)" srcset="imagens/imagem-m.png" type="image/png">
+            <img src="imagens/imagem-g.png" alt="imagem flexível">
+        </picture>
+
+            <!--Spots Action de Audionautix é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/
+            Artista: http://audionautix.com/-->
+
+            <h1>reproduzindo áudios</h1>
+            <p>vamos aprender a reproduzir áudios em um site HTML5</p>
+            <audio preload="metadata" controls loop autoplay>
+                <source src="midia/ten-inch-spikes-jeremy-korpas.mp3" type="audio/mpeg">
+                <source src="midia/ten-inch-spikes-jeremy-korpas.ogg" type="audio/ogg">
+                <source src="midia/ten-inch-spikes-jeremy-korpas.wave" type="audio/wave"><!--!!!!!!!Evite usar porque é um arquivo muito pesado, mesmo que o dispositivo tenha compatibilidade, evite se puder ao máximo!!!!!!! Utilize apenas em caso se for colocar para download-->
+                <p>Infelizmente seu navegador não suporta reprodução de áudios. <a href="midia/ten-inch-spikes-jeremy-korpas.mp3">Clique aqui</a> para baixar e escutar o áudio</p>
+            </audio>
+            
+    </body> 
+</html>

@@ -1,0 +1,11 @@
+Aqui eu irei escrever todas as minha idéias para criação de programas ou sites que eu tiver
+
+1°)Site de reviews de jogos ou filmes
+
+o que precisa ter nos sites:
+Imagens do conteudo que se esta falando
+favicon
+imagens da parte do filme ou jogo
+organização com css
+layout de padronização para as paginas
+link de redirecionamento 

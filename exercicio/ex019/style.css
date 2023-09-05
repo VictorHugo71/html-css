@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*em HTML é id e em CSS é # (só pode ter um elemento na página HTML)
+ em HTML é class e em CSS é .(ponto) (pode ter vários elemntos)
+*/
+
+body{
+    background-color:#97C2AA;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{ /*Serve para todos os elementos h1*/
+    color: 
+    #20422F
+    ;
+}
+
+h2{ /*Serve para todos os elementos h2*/
+    color: rgb(20, 164, 20);
+}
+
+
+h1#principal{ /*Seletor personalizado com "id", serve apenas para o elemento h1 com o id principal, sobrepõe as configurações sem id*/
+    text-align: center;
+   
+    color: #fff;
+}
+
+.basico{ /*Seletor personalizado com "class", serve apenas para os elementos com a class basico*/
+    color:rgb(6, 171, 6);
+}
+
+.medio{ /*Seletor personalizado com "class", serve apenas para os elementos com a class medio*/
+    color:rgb(171, 157, 6);
+}
+
+.avançado{ /*Seletor personalizado com "class", serve apenas para os elementos com a class avançado*/
+    color:rgb(171, 6, 6);    
+}
+
+.destaque{ /*Seletor personalizado com "class", serve apenas para os elementos com a class destaque*/
+    background-color: #86861c79;
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    width: 100%px;
+
+}
+
+header{
+    margin: -20px -8px;
+    background-image: linear-gradient(#3CD983, #1A5C38);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33);
+}
+
+header > h1{
+    text-align: center;
+    color: #fff;
+}
+
+header > nav{
+    padding: 5px;
+}
+
+nav > a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav >a:hover{
+    text-decoration: underline;
+}
+
+header >p{
+    text-align: center;
+    color: #fff;
+}
+
+main{
+    background-color: #fff;
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33);
+}
+
+
+section > h1, h2{
+    font-family: android, sans-serif;
+    color: #3D7958;
+}
+
+section > h2{
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #83b3985f, #FAFDFC);
+}
+
+aside{
+    background-color: #fff;
+    padding: 20px;
+    width: 780px;
+    margin: auto;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33); 
+}
+
+.aprender{
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px 15px 15px 15px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33); 
+
+}
+
+.mais{
+    color: #fff;
+    margin: 0;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33); 
+}
+li{
+    text-decoration: underline;
+}
+li:before{
+    content: '✓';
+}
+
+footer{
+    background-color: #1A5C38;
+    color: #fff;
+    text-align: center;
+    margin: 10px -8px -8px -8px;
+    box-shadow: 1px -2px 3px 1px rgba(0, 0, 0, 0.33);
+}
+
+footer > p{
+    margin: 0px;
+    padding: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.boneco-droid{
+    margin-left: 200px;
+}
+
+.video-android{
+    background-color: #1A5C38;
+    padding: 20px;
+    margin: auto;
+    width: 780px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.33);
+}
