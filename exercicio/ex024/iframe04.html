@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança em iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe obcaecati possimus dicta delectus excepturi aut, blanditiis iste, recusandae impedit eos a placeat ipsam quas nemo aliquam? Cumque ducimus perferendis illo.</p>
+
+    <iframe src="paginas-extras/pag04.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer" frameborder="1"> <!--O parametro sandbox quando recebe o valor "sandbox" não coleta nenhum dado do iframe, possuindo todas as configurações de segurança completamente ativadas. No parametro referrerpolicy quando recebe o valor "no-referrer" diz ao navegador para não coletar nenhum dos dados fornecidos pelo usário-->
+        <p>Seu navegador não é compativel</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt ratione similique molestiae magni, harum ipsam, pariatur, quis culpa vero alias unde architecto? Tenetur sapiente porro veniam voluptatum aperiam illum.</p>
+</body>
+</html>
