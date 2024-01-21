@@ -3,8 +3,10 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://victorhugo71.github.io/html-css/desafios/desafio10_1/android.html" target="_blank">Ver desafio sobre mascote do android.</a>
+<p><a href="https://victorhugo71.github.io/html-css/desafios/desafio10_1/android.html" target="_blank">Ver desafio sobre mascote do android.</a></p>
 
-<a href="https://victorhugo71.github.io/projeto-cordel/" target="_blank">Ver desafio do cordel.</a>
+<p><a href="https://victorhugo71.github.io/projeto-cordel/" target="_blank">Ver desafio do cordel.</a></p>
 
-<a href="https://victorhugo71.github.io/projeto-social/" target="_blank">Ver desafio das redes sociais.</a>
+<p><a href="https://victorhugo71.github.io/projeto-social/" target="_blank">Ver desafio das redes sociais.</a></p>
+
+<p><a href="https://victorhugo71.github.io/html-css/exercicio/ex026/mq005/index.html">
