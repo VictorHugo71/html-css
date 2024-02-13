@@ -1,13 +1,18 @@
-@charset "UTF-8"
+@charset "UTF-8";
 @font-face{ /**/
     font-family:source;
     src: url(font/source-code.ttf);
+    /*Procura outra fonte para dar um toque mais artístico, considerando que é um site com várias imagens, de preferência uma sans-serif. EXCLUA A FONTE QUE VOCÊ BAIXOU, NÃO ESQUECE!!!*/
 }
 
-:root { /*Variaveis das cores que vou utilizar, muda o nome para o local onde vc vai usar, tipo principal, destaque, etc.*/
-    --cor1:##735BA4
-    --cor2:#5E4890
-    --cor3:#6C5A9F
-    --cor4:#654D97
-    --cor5:#4F3981
+/*Faz as configurações no estilo do Mobile First com o @media*/
+
+:root { 
+    /*Variaveis das cores que vou utilizar, muda o nome para o local onde vc vai usar, tipo principal, destaque, etc.*/
+    /*Procura uma nova paleta de cores.*/
+    --cor1:;
+    --cor2:;
+    --cor3:;
+    --cor4:;
+    --cor5:;
 }
