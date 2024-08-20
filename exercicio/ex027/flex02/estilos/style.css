@@ -1,0 +1,12 @@
+div.container {
+    background-color: salmon;
+    display: flex; /*Só usar display flex nas caixas containers/pai*/
+    flex-direction:row;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
