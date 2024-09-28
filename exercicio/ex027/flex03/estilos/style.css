@@ -1,0 +1,13 @@
+div.container {
+    background-color: salmon;
+    display: flex; /*Só usar display flex nas caixas containers/pai*/
+    flex-flow:column wrap;
+    height: 45px;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
